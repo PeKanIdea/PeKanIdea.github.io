@@ -45,6 +45,7 @@ header>a {
     flex-direction: row;
     box-sizing: border-box;
     height: 475px;
+    margin-right: 19px;
 }
 
 .offer {
