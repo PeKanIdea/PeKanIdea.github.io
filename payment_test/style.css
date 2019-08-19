@@ -1,0 +1,364 @@
+.bodyWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    height: 85px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 85px;
+    padding-right: 82px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 20px #000000;
+}
+
+header>a {
+    color: #3D8F85;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.mainTitle {
+    height: 72px;
+    width: 920px;
+    margin-top: 40px;
+    align-self: center;
+    font-family: Open Sans;
+    letter-spacing: 0.52px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.mainContentWrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+    align-self: center;
+    margin-bottom: 40.54px;
+}
+
+.offers {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 475px;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    border: 2px solid #3D8F85;
+    border-radius: 7px;
+
+}
+
+.offerTrial {
+    margin-right: 28px;
+}
+
+.offerCountdown {
+    width: 350px;
+    height: 87px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3D8F85;
+}
+
+.offerCountdownTitle {
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 100%;
+}
+.countdownTimer{
+    display: flex;
+    flex-direction: row;
+    width: 183px;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+.countdownNumber{
+    display: flex;
+    flex-direction: row;
+    font-size: 21px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    font-weight: bold;
+    font-family: Open Sans;
+}
+.offerTrial>img {
+    margin-top: 4px;
+    margin-bottom: 18.2px;
+}
+
+.offerTitle {
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.offerTrialFootnote {
+    font-size: 11px;
+    color: #646464;
+    font-family: Open Sans;
+}
+
+.offerPrice {
+    font-size: 32px;
+    letter-spacing: 0.64px;
+    font-weight: bold;
+    font-family: Montserrat;
+    color: #3D8F85;
+    margin-bottom: 13px;
+}
+
+.offerDescription {
+    display: inline-block;
+    width: 226px;
+    text-align: center;
+    font-size: 13px;
+    color: #585858;
+    font-family: Open Sans;
+    margin-bottom: 33px;
+}
+
+.offerBtn {
+    outline: none;
+    width: 260px;
+    height: 60px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px #E24C2C;
+    background-color: #E24C2C;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: Montserrat;
+}
+
+.offerAnnual {
+    border-color: #D4D9E6;
+    padding-top: 93.54px;
+}
+
+.offerAnnual>img {
+    margin-bottom: 20.37px;
+}
+
+.offerAnnual>.offerTitle {
+    margin-bottom: 28px;
+}
+
+.offerAnnualPrice {
+    font-size: 13px;
+    color: #646464;
+    font-family: Open Sans;
+    font-weight: regular;
+
+}
+
+.offersGuarantee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 460px;
+    width: 407.79px;
+}
+
+.guarantedBannerTitle {
+    position: absolute;
+    top: 13px;
+    left: 73px;
+    z-index: 3;
+}
+
+.offersGuaranteeTitle {
+    font-size: 18px;
+    color: #585858;
+    font-family: Open Sans;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.offersGuaranteeList {
+    list-style: none;
+}
+
+.offersGuaranteeList>li {
+    font-size: 16px;
+    font-family: Open Sans;
+    margin-bottom: 23px;
+}
+
+.offersGuaranteeList>li>span {
+    color: #3D8F85;
+    margin-right: 17.87px;
+}
+
+.secondaryContentWrapper {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 1113px;
+
+}
+
+.clientReviewWrapper {
+    display: flex;
+    max-width: 1113px;
+    justify-content: space-between;
+}
+
+.clientPhoto {
+    width: 110px;
+    height: 110px;
+    margin-right: 21px;
+}
+
+.clientRewiew>span {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 10px;
+    font-weight: Semibold;
+    font-family: Open Sans;
+}
+
+.clientRewiew>p {
+    font-size: 15px;
+    color: #646464;
+    letter-spacing: 0.3px;
+    font-family: Open Sans;
+}
+.carousel-items, .carousel-labels {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.carousel-item {
+	display: block;
+	float: left;
+}
+
+.carousel-wrapper {
+    width: 100%;
+	position: relative;
+	padding-bottom: 16%;
+	overflow: hidden;
+}
+.carousel-items {
+	width: 300%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	transition: left .5s ease-out;
+	-o-transition: left .5s ease-out;
+	-ms-transition: left .5s ease-out;
+	-moz-transition: left .5s ease-out;
+	-webkit-transition: left .5s ease-out;
+}
+.carousel-item {
+	width: 33.3333%;
+	height: 100%;
+	color: white;
+}
+.carousel-labels {
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	bottom: 0;
+	height: 20px;
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+}
+.carousel-selector {
+    display: none;
+}
+.carousel-label {
+	display: inline-block;
+}
+.carousel-label label {
+	width: 6px;
+	height: 6px;
+	border-radius: 10px;
+    background-color:#E8E8E8;
+	display: block;
+	cursor: pointer;
+}
+
+#slide1:checked ~ .carousel-items {
+	left: 0;
+}
+#slide1:checked ~ .carousel-labels .carousel-label:nth-child(1) label {
+    background-color: #3D8F85;
+    width: 8px;
+	height: 8px;
+}
+#slide2:checked ~ .carousel-items {
+	left: -100%;
+}
+#slide2:checked ~ .carousel-labels .carousel-label:nth-child(2) label {
+    background-color: #3D8F85;
+    width: 8px;
+	height: 8px;
+}
+#slide3:checked ~ .carousel-items {
+	left: -200%;
+}
+#slide3:checked ~ .carousel-labels .carousel-label:nth-child(3) label {
+    background-color: #3D8F85;
+    width: 8px;
+	height: 8px;
+}
+footer {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 155px;
+    width: 100%;
+    background-color: #2A1818;
+}
+
+.footerLogo {
+    position: absolute;
+    top: 33px;
+    left: 85.31px;
+} 
+.footerTitle{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 36px;
+    width: 279px;
+    font-size: 15px;
+    font-family: Open Sans;
+    color:#FFFFFF;
+}
+.footerDescription{
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #646464;
+}
+.footerDescription>span{
+    display: inline-block;
+    margin-top: 32px;
+    font-size: 13px;
+    font-family: Open Sans;
+    color: #646464;
+}

@@ -1,0 +1,214 @@
+.offerOrder{
+    display: flex;
+    flex-direction: column;
+    min-width: 532px;
+    max-width: 532px;
+    margin-right: 55.88px;
+}
+.offerOrderInfo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25.54px;
+    border: 1px solid #D4D9E6;
+    border-top: none;
+}
+.offerOrderInfoTitle{
+    position: relative;
+}
+.offerProposal{
+    display: flex;
+    flex-direction: row;
+}
+.offerOrderLogo{
+    margin-top: 7px;
+    margin-right: 22px;
+    margin-left: 24px;
+}
+.oferOrderDescription{
+    margin-top: 18.56px;
+    width: 189px;
+}
+.descriptionTitle{
+    font-size: 16px;
+    color: #646464;
+    font-weight: bold;
+    font-family: Open Sans;
+    margin-bottom: 3px;
+}
+.descriptionPrice{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5px;
+    align-items: center; 
+}
+.priceFootnote{
+    margin-left: -15px;
+    font-size: 11px;
+    color: #333333;
+    font-family: Open Sans;
+}
+.descriptionPrice>span:first-of-type{
+    font-size: 9px;
+    color: #333333;
+    font-family: Open Sans;
+    margin-right: 16px;
+}
+.descriptionPrice>span:last-of-type{
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    color: #3D8F85;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.descriptionFootnote{
+    font-size: 10px;
+    color: #585858;
+    opacity: 0.8;
+    font-family: Open Sans;
+}
+.offerOrderBtn{
+    outline: none;
+    align-self: center;
+    margin-left: 47.5px;
+    border: 2px solid #3D8F85;
+    border-radius: 7px;
+    width: 118px;
+    height: 37.28px;
+    background-color: #ffff;
+    font-size: 13px;
+    color: #3D8F85;
+    font-family: Montserrat;
+    font-weight: bold;
+
+}
+.formField {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.fieldFocus{
+    margin-right: 20px;
+}
+.checkForm {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+}
+.formInput{
+    display: flex;
+    flex-direction: row;
+}
+.checkSuccess{
+content: url(scr/img/checkSuccess.svg);
+}
+.checkDeny{
+    content: url(scr/img/checkDeny.svg);
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.input{
+    height: 39px;
+    border: 1px solid #D4D9E6;
+    border-radius: 7px;
+    font-size: 15px;
+    color: #B6B6B6;
+    font-family: Open Sans;
+    outline: none; 
+}
+.longInput{
+    width: 250px;
+    margin-right: 10px;
+}
+.shortInput{
+    max-width: 219px;
+    margin-right: 10px;
+}
+.cardCheck{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+#cardLabel{
+    display: none;
+    font-size: 10px;
+    color: #E24C2C;
+    font-family: Open Sans;
+}
+#dateLabel{
+    display: none;
+    font-size: 10px;
+    color: #E24C2C;
+    font-family: Open Sans;
+}
+.cardCheckSeparator{
+    display: inline-block;
+    align-self: center;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    font-family: Open Sans;
+    margin-right: 6.63px;
+    margin-top: 15px;
+}
+.nameCheck{
+    margin-bottom: 18px;
+}
+.dateCheck{
+    display: flex;
+    flex-direction: row;
+}
+.monthCheck{
+    width: 130px;
+    margin-right: 6.35px;
+}
+option[value=""][disabled] {
+    display: none;
+  }
+.yearCheck{
+    width: 99px;
+}
+.checkTitle{
+    font-size: 10px;
+    color: #333333;
+    font-family: Open Sans;
+    margin-bottom: 5px;
+}
+.checkForm button {
+	border-radius: 2px;
+	background-color: #ccc;
+	color: #fff;
+}
+.orderConfirm{
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+.orderConfirmBtn{
+    outline: none;
+    width: 127px;
+    height: 40px;
+    background-color: #E24C2C;
+    color: #FFFFFF;
+    border-radius: 7px;
+    opacity: 0.6;
+    margin-right: 18px;
+}
+.orderConfirmBtnActive{
+    opacity: 1;
+}
+.orderConfirm>span{
+    font-size: 11px;
+    color: #B6B6B6;
+    font-family: Open Sans;
+}
+.orderConfirtFootnote{
+    font-size: 10px;
+    color: #585858;
+    font-family: Open Sans;
+    width: 399px;
+}
+.orderConfirtFootnote>a{
+    color: #585858;
+}
